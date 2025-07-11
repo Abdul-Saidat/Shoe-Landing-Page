@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoe Landing-Page</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="desktop-navs">
+      <section class="header">
+        <div class="header__logo">
+          <img src="./assets/images/shoe-logo.png" alt="logo" />
+        </div>
+        <nav class="header__nav">
+          <ul>
+            <li class="header__nav-item"><a href="#">Home</a></li>
+            <li class="header__nav-item"><a href="#">About Us</a></li>
+            <li class="header__nav-item"><a href="#">Testimonials</a></li>
+            <li class="header__nav-item"><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <button class="header__button header__button--primary">Sign Up</button>
+      </section>
+    </section>
+    <section class="mobile-navs">
+      <section class="mobile-navs__header">
+        <div class="header__logo">
+          <img src="./assets/images/shoe-logo.png" alt="" />
+        </div>
+        <button class="header__button header__button--primary">Sign Up</button>
+        <input
+          type="checkbox"
+          name="hamburger"
+          id="menu-toggle"
+          class="menu-toggle"
+        />
+        <label for="menu-toggle" class="dropdown">&#9776; </label>
+        <div class="overlay-menu">
+          <nav class="header__nav">
+            <label for="menu-toggle" class="close-btn">&times;</label>
+            <ul>
+              <li class="header__nav-item"><a href="#">Home</a></li>
+              <li class="header__nav-item"><a href="#">About Us</a></li>
+              <li class="header__nav-item"><a href="#">Testimonials</a></li>
+              <li class="header__nav-item"><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </section>
+
+    <section class="hero">
+      <div class="hero__content">
+        <h1 class="hero__title">Shop Our Stunning Shoe Collection</h1>
+        <p class="hero__text">
+          We believe that every step you take should be a statement of
+          confidence and indidviduality. Our meticulously crafted footware
+          blends timeless elegance with modern innovation.
+        </p>
+        <section class="hero__buttons">
+          <button class="hero__btn hero__btn--primary">Buy now</button>
+          <button class="hero__btn hero__btn--secondary">Explore</button>
+        </section>
+    </div>
+    <div class="hero__image">
+      <img src="./assets/images/shoe-img.png" alt="Shoe Image" />
+    </div>
+    </section>
+  </body>
+</html>
