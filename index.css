@@ -172,6 +172,7 @@ p {
   background: transparent;
 }
 
+/* Desktop */
 @media (min-width: 768px) {
   .mobile-navs {
     display: none;
@@ -244,9 +245,9 @@ p {
 
   .hero {
     width: 1100px;
+    height: initial;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
   }
 
   .hero__content {
@@ -269,3 +270,28 @@ p {
     margin-top: 40px;
   }
 }
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .mobile-navs {
+    display: none;
+  }
+
+  .desktop-navs {
+    display: initial;
+  }
+
+  .hero {
+    max-width: 1100px;
+    width: 90%;
+  }
+
+  .hero__content {
+    margin-left: 20px;
+  }
+
+  .hero__image img {
+    margin-left: 90px;
+  }
+}
+
